@@ -1,7 +1,7 @@
 FROM alpine:3.15.0
 
 # set version (refer to alpine linux version)
-ENV CLAM_VERSION=0.104.1-r0
+ENV CLAM_VERSION=0.104.2-r0
 
 # add dependencies
 RUN apk add --no-cache clamav=$CLAM_VERSION clamav-libunrar=$CLAM_VERSION 
